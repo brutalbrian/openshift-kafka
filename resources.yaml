@@ -43,7 +43,7 @@ items:
             args:
             - config/server.properties
             - --override
-            - advertised.host.name=${NAME}
+            - advertised.host.name=127.0.0.1
             - --override
             - log.segment.bytes=10485760
             - --override
